@@ -1,0 +1,83 @@
+:root {
+    --bgColor: hsl(233, 47%, 7%);
+    --cardBgColor: hsl(244, 38%, 16%);
+    --accentColor: hsl(277, 64%, 61%);
+    --accentLightColor: hsl(277, 79%, 69%);
+    --textColor: hsl(0, 0%, 100%);
+    --paragraphColor: hsla(0, 0%, 100%, 0.75);
+    --statsHeadingsColor: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    font-family: "lexend Deca", sans-serif;
+    font-size: 100%;
+}
+
+main {
+    background-color: var(--cardBgColor);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 64px 32px 16px;
+}
+
+h1 {
+    font-family: "inter", sans-serif;
+}
+
+h1 span {
+    color: var(--accentColor);
+}
+
+p {
+    color: var(--paragraphColor);
+    margin: 20px 0;
+}
+
+dt {
+    font-family: "inter", sans-serif;
+    font: size 1.2em;
+    font-weight: 700;
+
+}
+
+dd {
+    color: var(--statsHeadingsColor);
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+a {
+    color: var(--accentColor);
+}
+
+a:hover {
+    color: var(--accentLightColor);
+}
+
+img {
+    width: 100%
+}
+
+footer {
+    margin: 16px 32px 64px
+}
+
+Content {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+stat {
+    padding: 32px;
+}
